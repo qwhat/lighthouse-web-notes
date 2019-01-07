@@ -7,4 +7,4 @@
 # Table of contents
 
   *[week 1](/week_1)
-    * [Day 1](/week_1/Day_1)
+    *[Day 1](/week_1/Day_1)
