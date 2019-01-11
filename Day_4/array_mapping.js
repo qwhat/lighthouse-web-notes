@@ -1,10 +1,13 @@
 var input = [
-  { x: 3, y: 4 },
-  { x: 12, y: 5 },
-  { x: 8, y: 15 }
+  { a: 3, b: 4 },
+  { a: 12, b: 5 },
+  { a: 8, b: 15 }
 ];
 var result = input.map(function(factors){
-  var c = Math.sqrt(Math.pow(factors.x, 2) + Math.pow(factors.y, 2))
+  var a = factors.a
+  var b = factors.b
+  var c2 = (Math.pow(a, 2) + Math.pow(b, 2))
+  var c = Math.sqrt(c2)
   return c
 
 })
